@@ -6,6 +6,16 @@
     <style>
         body { font-family: sans-serif; text-align: center; margin-top: 50px; }
         nav a { margin: 0 10px; text-decoration: none; color: blue; }
+        .btn-mejorado {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn-mejorado:hover { background-color: #45a049; }
     </style>
 </head>
 <body>
@@ -14,11 +24,11 @@
         <a href="index.html">Volver a Home</a>
     </nav>
 
-    <h2>¿Qué puede hacer JavaScript?</h2>
-    <p id="demo">JavaScript puede cambiar el contenido HTML.</p>
+    <h2>¿Qué puede hacer JavaScript? (Versión Mejorada)</h2>
+    <p id="demo">JavaScript puede cambiar el contenido HTML de forma dinámica.</p>
     
-    <button type="button" onclick="document.getElementById('demo').innerHTML = '¡Hola JavaScript!'">
-        Haz clic aquí
+    <button class="btn-mejorado" type="button" onclick="document.getElementById('demo').innerHTML = '¡Hola JavaScript! Esta sección ha sido mejorada.'">
+        Haz clic aquí para ver la magia
     </button>
 
 </body>
