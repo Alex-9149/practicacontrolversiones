@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Atributos HTML</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        nav a { margin: 0 10px; text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Volver a Home</a>
+    </nav>
+
+    <h2>JavaScript puede cambiar atributos HTML</h2>
+    
+    <input type="text" id="miInput" value="Texto original">
+    <br><br>
+    <button type="button" onclick="document.getElementById('miInput').setAttribute('value', '¡Valor cambiado por JS!')">
+        Cambiar valor del input
+    </button>
+
+</body>
+</html>
