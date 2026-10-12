@@ -20,14 +20,14 @@ El Usuario 2 creó dos ramas independientes desde `develop`:
 2. `feature/atributosHTML`: Se añadió el ejemplo para modificar atributos.
 Ambas ramas fueron fusionadas de vuelta a `develop`.
 *Captura de pantalla de los commits y fusión del Usuario 2:*
-![Captura Usuario 2](ruta/a/tu/captura2.png)
+![Captura Usuario 2](2.png)
 
 ### Usuario 3: Estilos CSS y Release v1.0
 El Usuario 3 desarrolló la `feature/estilosCSS`. Tras fusionarla en `develop`, generó la rama `release/v1.0` para empaquetar la primera versión del curso. Esta versión se fusionó en `main` y `develop`, y se etiquetó como `v1.0`.
 *Captura de pantalla de la etiqueta v1.0 y el log de Git:*
-![Captura Usuario 3](ruta/a/tu/captura3.png)
+![Captura Usuario 3](3.png)
 
 ### Usuario 1: Hotfix de Mejora
 Para mejorar visualmente la sección de contenido en producción, el Usuario 1 creó la rama `hotfix/mejorasV_1_0` directamente desde `main`. Tras aplicar los estilos al botón, se fusionó en `main` (etiquetado como parche) y en `develop`.
 *Captura de pantalla del grafo de ramas (Git Graph) o log final:*
-![Captura Hotfix](ruta/a/tu/captura4.png)
+![Captura Hotfix](4.png)
