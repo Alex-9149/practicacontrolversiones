@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Estilos CSS</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        nav a { margin: 0 10px; text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Volver a Home</a>
+    </nav>
+
+    <h2>JavaScript puede cambiar el estilo de un elemento HTML</h2>
+    
+    <p id="demo">JavaScript puede cambiar el tamaño de esta fuente.</p>
+    
+    <button type="button" onclick="cambiarEstilo()">
+        ¡Haz clic para cambiar el estilo!
+    </button>
+
+    <script>
+        // Función para cambiar los estilos CSS del elemento con id="demo"
+        function cambiarEstilo() {
+            // Seleccionamos el elemento
+            let elemento = document.getElementById("demo");
+            
+            // Modificamos sus propiedades CSS
+            elemento.style.fontSize = "35px";
+            elemento.style.color = "red";
+            elemento.style.backgroundColor = "yellow";
+        }
+    </script>
+
+</body>
+</html>
