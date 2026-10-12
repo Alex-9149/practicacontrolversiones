@@ -12,7 +12,7 @@ Utilizamos Git Flow en este desarrollo porque proporciona un marco de trabajo ro
 ### Usuario 1: Estructura inicial y configuración
 El Usuario 1 inicializó el repositorio y creó las ramas principales `main` y `develop`. Posteriormente, implementó la estructura base del proyecto (`index.html` con cabecera, navegación y footer).
 *Captura de pantalla de la creación de las ramas y el primer commit:*
-![Captura inicial](ruta/a/tu/captura1.png)
+![Captura inicial](1.png)
 
 ### Usuario 2: Creación de Features de HTML
 El Usuario 2 creó dos ramas independientes desde `develop`:
